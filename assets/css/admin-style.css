@@ -1,0 +1,59 @@
+.ssw-card {
+  background: #fff;
+  border: 1px solid #ccd0d4;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.ssw-log-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.ssw-log-table th,
+.ssw-log-table td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ccd0d4;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.ssw-settings-header {
+  margin-bottom: 20px;
+}
+
+.ssw-button-group {
+  margin-top: 15px;
+}
+
+.ssw-form-table {
+  margin-top: 15px;
+}
+
+.ssw-log-wrapper {
+  margin-top: 30px;
+}
+
+.ssw-notice {
+  padding: 12px;
+  margin: 15px 0;
+  border-left: 4px solid #00a0d2;
+  background: #fff;
+}
+
+.ssw-notice.error {
+  border-left-color: #dc3232;
+}
+
+.ssw-notice.success {
+  border-left-color: #46b450;
+}
