@@ -1,0 +1,65 @@
+# Build & Distribution
+dist/
+build/
+*.zip
+
+# Dependencies
+/vendor/
+/node_modules/
+composer.lock
+package-lock.json
+yarn.lock
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Compiled assets
+*.min.js
+*.min.css
+*.map
+assets/js/dist/
+assets/css/dist/
+
+# Development & IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+.phpunit.result.cache
+.php_cs.cache
+.php-cs-fixer.cache
+.phplint-cache
+phpunit.xml
+.sass-cache/
+
+# Logs & Temporary files
+*.log
+debug.log
+error_log
+*.tmp
+*.temp
+*.swp
+*.bak
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Testing
+/tests/coverage/
+.phpunit.cache/
+
+# Language files (if generated)
+languages/*.pot
+languages/*.po
+languages/*.mo
+languages/*.json
